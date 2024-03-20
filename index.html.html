@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,
+    700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS_Code/general.css">
+    <link rel="stylesheet" href="CSS_Code/header.css">
+    <link rel="stylesheet" href="CSS_Code/video.css">
+    <link rel="stylesheet" href="CSS_Code/sidebar.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu"
+         src="Icons/hamburger-menu.svg">
+        <img class="youtube-logo"
+         src="Icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" 
+        placeholder="Search">
+        <button class="search-button">
+          <img 
+          class="search-icon"
+          src="Icons/search.svg">
+          <div class="tooltip">
+            Search
+          </div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon"
+          src="Icons/voice-search-icon.svg">
+          <div class="tooltip">
+            Search with your voice
+          </div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon"
+          src="Icons/upload.svg">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+        <div class="notifications-icon-container">  
+          <img class="notifications-icon"
+          src="Icons/notifications.svg">
+          <div class="notifiactions-count">
+            6
+          </div>
+          <div class="tooltip">
+            Notifications
+          </div>
+        </div>
+        <img class="current-user-picture"
+        src="channel-pictures/Jakub_Tabor.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img class="youtube-home"
+        src="Icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="youtube-shorts"
+        src="Icons/youtube-shorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="youtube-subscriptions"
+        src="Icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="youtube-music"
+        src="Icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="youtube-library"
+        src="Icons/library.svg">
+        <div>Library</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="youtube-downloads"
+        src="Icons/downloads.svg">
+        <div>Downloads</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" 
+            src="thumbnails/gaussian.webp">
+            <div class="video-time">13:16
+            </div>
+          </div>     
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture"  
+              src="channel-pictures/3b1b.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                A pretty reason why Gaussian + Gaussian = Gaussian
+              </p>
+              <p class="video-author">
+                3Blue1Brown
+              </p>
+              <p class="video-stats">
+                675 tys views &#183; 7 months ago
+              </p> 
+            </div>    
+          </div> 
+      </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/ChatGPT.webp">
+            <div class="video-time">
+              1:56:20
+            </div>
+          </div>   
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/AndrejKarpathy.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Let's build GPT: from scratch, in code, spelled out.
+              </p>
+              <p class="video-author">
+                Andrej Karpathy
+              </p>
+              <p class="video-stats">
+                3,9 mln views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/italian_disunity.webp">
+            <div class="video-time">
+              16:40
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-picture">
+              <img class="profile-picture" src="channel-pictures/Kings_and_generals.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Why Was Italy so Fragmented in the Middle Ages? - Medieval DOCUMENTARY
+              </p>
+              <p class="video-author">
+                Kings And Generals
+              </p>
+              <p class="video-stats">
+                589 tys views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Jeff_Bezos.webp">
+            <div class="video-time">
+              2:11:32
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-picture">
+              <img class="profile-picture" src="channel-pictures/Lex_Fridman.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Jeff Bezos: Amazon and Blue Origin | Lex Fridman Podcast #405
+              </p>
+              <p class="video-author">
+                Lex Fridman
+              </p>
+              <p class="video-stats">
+                3,8 mln views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Beauty_will_save_us.webp">
+            <div class="video-time">
+              7:57
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-picture">
+              <img class="profile-picture" src="channel-pictures/Presage.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Beauty will save the world - the philosophy of Fyodor Dostoyevsky
+              </p>
+              <p class="video-author">
+                Presage
+              </p>
+              <p class="video-stats">
+                668 tys views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Calculus_in_nutshell.webp">
+            <div class="video-time">
+              3:01
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-picture">
+              <img class="profile-picture" src="channel-pictures/math_obsessed_alien.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Calculus in a nutshell
+              </p>
+              <p class="video-author">
+                math-obsessed alien
+              </p>
+              <p class="video-stats">
+                1,2 mln views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> 
+    </main>    
+  </body>
+</html>
