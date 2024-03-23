@@ -1,3 +1,4 @@
 # First we are gonna create the element at the top to represent our header
 * So i create new <div> with class header and i put there the search bar
+* The header is gonna have 3 sections: left, middle and right, so first i create 3 <div>
 
