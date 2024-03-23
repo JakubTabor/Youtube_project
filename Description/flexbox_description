@@ -1,2 +1,3 @@
 # First we are gonna create the element at the top to represent our header
+* So i create new <div> with class header and i put there the search bar
 
