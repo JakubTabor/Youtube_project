@@ -10,3 +10,4 @@
 * I add height to the header and i get into 55px in the header class
 
 # Next i gonna positions all 3 sections
+* Now our sections are aligned vertically, that's because <div> by default is display-block
