@@ -4,5 +4,6 @@
 * Search bar will be in the middle section
 
 # Next we are gonna take care of margin 
+* I set margin in body to 0, so it will set all margins in all directions to 0
 
 
