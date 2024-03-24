@@ -13,3 +13,4 @@
 * Now our sections are aligned vertically, that's because <div> by default is display-block
 * To create horizontal layout i change header container to flexbox
 * So i change display in header class to flex and the flex-direction to row
+* Now the sections take only as much space as they need to 
