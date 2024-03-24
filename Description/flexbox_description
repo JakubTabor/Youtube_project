@@ -17,3 +17,4 @@
 
 # Then to create our auto-resizing middle section we are gonna use flex property
 * The right and left sections will gonna have pre-define width, so when we resize the page it don't change it's width
+* The fixed width of our left-section will be 150px
