@@ -14,3 +14,5 @@
 * To create horizontal layout i change header container to flexbox
 * So i change display in header class to flex and the flex-direction to row
 * Now the sections take only as much space as they need to 
+
+# Then to create our auto-resizing middle section we are gonna use flex property
