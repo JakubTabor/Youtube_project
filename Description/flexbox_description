@@ -20,3 +20,5 @@
 * The fixed width of our left-section will be 150px
 * The middle section will be stretch, so i change flex to 1
 * And the right-section fixed width is 200px
+
+# Next i gonna add spacing on the left and right side of the middle section
