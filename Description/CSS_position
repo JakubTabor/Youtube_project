@@ -4,3 +4,4 @@
 
 # We also add some spacing between the header and the content
 * Sidebar is sticking to the bottom, so bottom will be 0, its sticking to the left, so left 0
+* And from the top it will be 50px
