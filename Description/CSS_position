@@ -1,2 +1,3 @@
 # To create a header using these
 * The header take space from 0px from the top and from 0px from left to 0px to right
+* To correctly define the bottom, we instead use height to 50px and now it don't resize with the page
