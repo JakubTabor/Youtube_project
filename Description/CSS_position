@@ -9,3 +9,4 @@
 * And to make our element not covering the content i add padding, to add extra space on the left side
 
 # Next i gonna use position absolute
+* Position absolute take the same values as position fixed: left, right...
