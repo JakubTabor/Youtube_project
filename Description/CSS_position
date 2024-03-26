@@ -7,3 +7,5 @@
 * And from the top it will be 50px
 * We don't want the sidebar to resize with the page, so i gonna use width instead of right
 * And to make our element not covering the content i add padding, to add extra space on the left side
+
+# Next i gonna use position absolute
