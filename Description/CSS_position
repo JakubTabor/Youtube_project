@@ -6,3 +6,4 @@
 * Sidebar is sticking to the bottom, so bottom will be 0, its sticking to the left, so left 0
 * And from the top it will be 50px
 * We don't want the sidebar to resize with the page, so i gonna use width instead of right
+* And to make our element not covering the content i add padding, to add extra space on the left side
