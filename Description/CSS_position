@@ -3,3 +3,4 @@
 * To correctly define the bottom, we instead use height to 50px and now it don't resize with the page
 
 # We also add some spacing between the header and the content
+* Sidebar is sticking to the bottom, so bottom will be 0, its sticking to the left, so left 0
