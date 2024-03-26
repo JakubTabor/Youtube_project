@@ -10,3 +10,4 @@
 
 # Next i gonna use position absolute
 * Position absolute take the same values as position fixed: left, right...
+* The difference between fixed and absolute position is that
