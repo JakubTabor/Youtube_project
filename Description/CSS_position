@@ -22,3 +22,4 @@
 
 # We can place the element with position absolute inside the element with position fixed
 * And the positioning will be relative inside the fixed element
+* That's how we can attach the element to the corner of other elements
