@@ -18,3 +18,4 @@
 * And for position absolute the elements move when we scroll, so we can put them on precise location on our page 
 
 # We can use z-index to define which element appear in front and which behind
+* And the higher z-index will appear in front of element with lower z-index
