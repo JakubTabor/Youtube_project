@@ -12,3 +12,4 @@
 * Position absolute take the same values as position fixed: left, right...
 * The difference between fixed and absolute position is that
 * For position fixed the elements are placed in the browser window
+* For position absolute the elements are placed on the page 
