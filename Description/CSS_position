@@ -13,3 +13,4 @@
 * The difference between fixed and absolute position is that
 * For position fixed the elements are placed in the browser window
 * For position absolute the elements are placed on the page 
+* So when we scroll the browser window don't move, only the page is moving
