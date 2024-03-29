@@ -19,3 +19,5 @@
 
 # We can use z-index to define which element appear in front and which behind
 * And the higher z-index will appear in front of element with lower z-index
+
+# We can place the element with position absolute inside the element with position fixed
