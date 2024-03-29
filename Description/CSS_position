@@ -15,3 +15,4 @@
 * For position absolute the elements are placed on the page 
 * So when we scroll the browser window don't move, only the page is moving
 * For position fixed the elements doesn't move when we scroll
+* And for position absolute the elements move when we scroll, so we can put them on precise location on our page 
