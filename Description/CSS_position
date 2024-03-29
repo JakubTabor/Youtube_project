@@ -16,3 +16,5 @@
 * So when we scroll the browser window don't move, only the page is moving
 * For position fixed the elements doesn't move when we scroll
 * And for position absolute the elements move when we scroll, so we can put them on precise location on our page 
+
+# We can use z-index to define which element appear in front and which behind
