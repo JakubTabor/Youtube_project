@@ -21,3 +21,4 @@
 * And the higher z-index will appear in front of element with lower z-index
 
 # We can place the element with position absolute inside the element with position fixed
+* And the positioning will be relative inside the fixed element
